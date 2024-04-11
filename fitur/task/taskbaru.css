@@ -1,0 +1,41 @@
+*, html, body{
+    margin: 3px;
+    padding: 0;
+    border: none;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+.sidebar a{
+    color: rgb(72, 23, 119);
+    text-decoration: none;
+}
+body{
+    display: flex;
+    background-color:rgb(210, 182, 236);
+}
+i{
+    color: rgb(72, 23, 119);
+}
+
+/* form */
+.addtask-container{
+    margin: auto;
+    display: ;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+}
+.addtask{
+   margin-top: 2em;
+}
+input[type="text"], input[type="date"]{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+textarea{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 10px 0;
+}

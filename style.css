@@ -1,0 +1,97 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+a{
+    color: rgb(72, 23, 119);
+    text-decoration: none;
+}
+body{
+    display: flex;
+    background-image: url(resource/pexels-veeterzy-114979.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color:rgb(210, 182, 236);
+}
+i{
+    color: rgb(72, 23, 119);
+}
+
+/* sidebar */
+.sidebar{
+    background-color: rgb(193, 134, 248);
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 650px;
+    padding: 0 20px;
+    overflow: hidden;
+    transition: all 0.5s linear;
+}
+.sidebar:hover{
+    width: 180px;
+    transition: 0.5s;
+}
+.menu{
+    height: 88%;
+    position: relative;
+    padding: 0;
+    padding-top: 5px;
+}
+.menu li{
+    padding: 10px;
+    list-style-type: none;
+    border-radius: 9px;
+    transition: all 0.5s ease-in-out;
+}
+.menu li:hover{
+    background-color: rgba(0, 0, 0, 0.233);
+    cursor: pointer;
+}
+.menu a{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.menu li span{
+    overflow: hidden;
+}
+.menu a i{
+    font-size: 18px;
+    position: relative;
+    right: 9px;
+}
+#settings{
+    position: absolute;
+    bottom: 10px;
+}
+/* home */
+.home-container{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.267);
+    backdrop-filter: blur(5.0px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.089);
+    transition: all 0.5s ease;
+}
+.home-container:hover{
+    width: 550px;
+    height: 330px;
+    border: 1px white solid;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.267);
+}
