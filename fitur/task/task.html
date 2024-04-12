@@ -50,5 +50,21 @@
             <a href="taskbaru.html"><h3><i class="fa-solid fa-plus"></i>Add Task</h3></a>
         </div>
     </div>
+
+    <!-- add task -->
+    <div class="addtask-container">
+        <h2 align="center">Add A Task</h2>
+        <div class="addtask">
+          <form name="addNewTask" onsubmit="return validate()">
+            <input type="text" id="t-title" name="addTitle" placeholder="Add a title" /><br />
+            <label>add date</label><br />
+            <input type="date" id="t-date" name="addDate" placeholder="Add a date" />
+            <!-- <input type="text" id="t-subject" name="addSubject" placeholder="Add subject" /><br /> -->
+            <!-- <textarea placeholder="Add a note..." name="addNote"></textarea> -->
+            <button id="btn" class="add-btn" onclick="addTask()">Add Task</button>
+          </form>
+          <div id="display" style="display: block"></div>
+        </div>
+      </div>
 </body>
 </html>
