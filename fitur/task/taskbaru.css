@@ -49,3 +49,14 @@ textarea {
 .display-box {
   list-style-type: none;
 }
+.container-task {
+  display: flex;
+  border: 1px solid black;
+}
+.delete-btn {
+  margin-left: 5em;
+  padding: 5px;
+  border-radius: 10px;
+  width: 5em;
+  height: 3em;
+}
