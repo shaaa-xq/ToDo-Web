@@ -28,6 +28,7 @@ i {
   /* background-color: brown; */
 }
 .addtask {
+  width: 20em;
   margin-top: 2em;
 }
 input[type="text"],
@@ -35,6 +36,7 @@ input[type="date"] {
   width: 100%;
   padding: 5px;
   margin: 10px 0;
+  cursor: pointer;
 }
 textarea {
   width: 100%;
@@ -45,18 +47,32 @@ textarea {
 .add-btn {
   padding: 1em;
   border-radius: 25px;
+  cursor: pointer;
 }
 .display-box {
   list-style-type: none;
 }
 .container-task {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  background-color: rgb(186, 145, 224);
+  border-radius: 10px;
+}
+.check {
+  margin-left: 6px;
+  width: 2em;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.title-date {
+  width: 10em;
 }
 .delete-btn {
+  margin: auto 5px;
   margin-left: 5em;
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 5em;
   height: 3em;
+  cursor: pointer;
 }
