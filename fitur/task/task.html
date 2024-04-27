@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do List</title>
-    <link rel="stylesheet" href="task.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="task.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="https://kit.fontawesome.com/430d835188.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- sidebar -->
-    <div class="sidebar">
-        <ul class="menu">
-            <li id="user"><a>
-                <i class="fa-solid fa-circle-user"></i><span>User</span></a>
-            </li>
-            <br>
-            <li id="task"><a>
-                <i class="fa-solid fa-list-check"></i><span>Tasks</span></a>
-            </li>
-            <li id="timetable"><a>
-                <i class="fa-regular fa-calendar-days"></i><span>Timetable</span></a>
-            </li>
-            <li id="reminder"><a>
-                <i class="fa-solid fa-bell"></i><span>Reminder</span></a>
-            </li>
-            <li id="settings"><a>
-                <i class="fa-solid fa-gear"></i></i><span>Settings</span></a>
-            </li>
-            
-        </ul>
-    </div>
+  </head>
+  <body>
+    <!-- main page -->
+    <main id="main-page">
+      <!-- calendar -->
+      <section id="calendar" class="calendar">
+        <h2>calendar</h2>
+      </section>
+
+      <!-- task-container -->
+      <section id="task-container" class="task-container">
+        <h2>Task</h2>
+        <div></div>
+      </section>
+    </main>
 
     <!-- task -->
-    <div class="task-container">
+    <!-- <div class="task-container">
         <div class="task">
             <h3>jobsheet 5</h3>
             <h5>Friday, Feb 9 2024</h5>
@@ -49,22 +40,20 @@
         <div class="add-task">
             <a href="taskbaru.html"><h3><i class="fa-solid fa-plus"></i>Add Task</h3></a>
         </div>
-    </div>
+    </div> -->
 
     <!-- add task -->
-    <div class="addtask-container">
-        <h2 align="center">Add A Task</h2>
-        <div class="addtask">
-          <form name="addNewTask" onsubmit="return validate()">
-            <input type="text" id="t-title" name="addTitle" placeholder="Add a title" /><br />
-            <label>add date</label><br />
-            <input type="date" id="t-date" name="addDate" placeholder="Add a date" />
-            <!-- <input type="text" id="t-subject" name="addSubject" placeholder="Add subject" /><br /> -->
-            <!-- <textarea placeholder="Add a note..." name="addNote"></textarea> -->
-            <button id="btn" class="add-btn" onclick="addTask()">Add Task</button>
-          </form>
-          <div id="display" style="display: block"></div>
-        </div>
+    <!-- <div class="addtask-container">
+      <h2 align="center">Add A Task</h2>
+      <div class="addtask">
+        <form name="addNewTask" onsubmit="return validate()">
+          <input type="text" id="t-title" name="addTitle" placeholder="Add a title" /><br />
+          <label>add date</label><br />
+          <input type="date" id="t-date" name="addDate" placeholder="Add a date" /> -->
+    <!-- <button id="btn" class="add-btn" onclick="addTask()">Add Task</button>
+        </form>
+        <div id="display" style="display: block"></div>
       </div>
-</body>
+    </div> -->
+  </body>
 </html>

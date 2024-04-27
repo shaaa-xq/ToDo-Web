@@ -25,7 +25,6 @@ i {
   /* display: ; */
   justify-content: center;
   align-items: center;
-  /* background-color: brown; */
 }
 .addtask {
   width: 20em;
@@ -50,6 +49,7 @@ textarea {
   cursor: pointer;
 }
 .display-box {
+  height: auto;
   list-style-type: none;
 }
 .container-task {
@@ -60,12 +60,20 @@ textarea {
 }
 .check {
   margin-left: 6px;
-  width: 2em;
+  width: 1.5em;
   border-radius: 50px;
   cursor: pointer;
+  text-decoration: ;
+}
+.title-task {
+  font-weight: 500;
 }
 .title-date {
   width: 10em;
+}
+.deadline {
+  font-weight: 500;
+  font-size: smaller;
 }
 .delete-btn {
   margin: auto 5px;

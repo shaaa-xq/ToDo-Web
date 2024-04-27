@@ -16,11 +16,9 @@
       <h2 align="center">Add A Task</h2>
       <div class="addtask">
         <form name="addNewTask">
-          <input type="text" id="t-title" name="addTitle" placeholder="Add a title" /><br />
+          <input type="text" aria-required="true" id="t-title" name="addTitle" placeholder="Add a title" /><br />
           <label>add date</label><br />
-          <input type="date" id="t-date" name="addDate" placeholder="Add a date" />
-          <!-- <input type="text" id="t-subject" name="addSubject" placeholder="Add subject" /><br /> -->
-          <!-- <textarea placeholder="Add a note..." name="addNote"></textarea> -->
+          <input type="date" aria-required="true" id="t-date" name="addDate" placeholder="Add a date" />
           <button type="button" id="btn" class="add-btn" onclick="addTask()">Add Task</button>
         </form>
         <div id="display" class="display-box"></div>
