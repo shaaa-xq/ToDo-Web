@@ -35,6 +35,6 @@ window.addEventListener("load", () => {
     const dateTime = currentDate + " - " + currentTime;
 
     document.getElementById("date-time").innerHTML = dateTime;
-    setTimeout(clock, 1000);
+    requestAnimationFrame(clock, 1000);
   }
 });
