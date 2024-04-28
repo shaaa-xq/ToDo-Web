@@ -14,8 +14,7 @@ window.addEventListener("load", () => {
     const second = seconds < 10 ? "0" + seconds : seconds;
 
     // 12 hour time clock
-    const hourTime = hour >= 12 ? (hour === 12 ? 12 : hour - 12) : hour === 0 ? 12 : hour;
-
+    const hourTime = hour > 12 ? hour - 12 : hour;
     // am pm
     const ampm = hour < 12 ? "AM" : "PM";
 
@@ -36,6 +35,6 @@ window.addEventListener("load", () => {
     const dateTime = currentDate + " - " + currentTime;
 
     document.getElementById("date-time").innerHTML = dateTime;
-    requestAnimationFrame(clock, 1000);
+    setTimeout(clock, 1000);
   }
 });
