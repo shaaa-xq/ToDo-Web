@@ -1,58 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do List</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="https://kit.fontawesome.com/430d835188.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- sidebar -->
-    <div class="sidebar">
-        <ul class="menu">
-            <li id="user"><a>
-                <i class="fa-solid fa-circle-user"></i><span>User</span></a>
-            </li>
-            <br>
-            <li id="task"><a href="fitur/task/task.html">
-                <i class="fa-solid fa-list-check"></i><span>Tasks</span></a>
-            </li>
-            <li id="timetable"><a>
-                <i class="fa-regular fa-calendar-days"></i><span>Timetable</span></a>
-            </li>
-            <li id="reminder"><a href="fitur/reminder/reminder.html">
-                <i class="fa-solid fa-bell"></i><span>Reminder</span></a>
-            </li>
-            <li id="settings"><a>
-                <i class="fa-solid fa-gear"></i></i><span>Settings</span></a>
-            </li>
-            
-        </ul>
-    </div>
-
+  </head>
+  <body>
     <!-- home / beranda -->
     <div class="home-container">
-        <div class="home">
-            <h2 align="center">Welcome, User</h2>
-            <h3 id="date">Wednesday, February 7 2024</h3>
+      <div class="home">
+        <h2 align="center">Welcome, User</h2>
+        <div id="clock">
+          <h3 id="date-time"></h3>
         </div>
+      </div>
     </div>
 
     <!-- main page -->
     <!-- <main id="main-page"> -->
-        <!-- calendar -->
-        <!-- <section id="calendar" class="calendar">
+    <!-- calendar -->
+    <!-- <section id="calendar" class="calendar">
             <h2>calendar</h2>
         </section> -->
 
-        <!-- task-container -->
-        <!-- <section id="task-container"></section> -->
+    <!-- task-container -->
+    <!-- <section id="task-container"></section> -->
     <!-- </main> -->
     <!-- script -->
-    <script href="script.js"></script>
-</body>
+    <script href="date.js"></script>
+  </body>
 </html>
