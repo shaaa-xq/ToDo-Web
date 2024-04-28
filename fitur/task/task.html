@@ -15,13 +15,23 @@
     <main id="main-page">
       <!-- calendar -->
       <section id="calendar" class="calendar">
-        <h2>calendar</h2>
+        <h2 align="center">calendar</h2>
       </section>
 
       <!-- task-container -->
       <section id="task-container" class="task-container">
-        <h2>Task</h2>
-        <div></div>
+        <div class="addtask-container">
+          <h2 align="center">Add A Task</h2>
+          <div class="addtask">
+            <form name="addNewTask">
+              <input type="text" aria-required="true" id="t-title" name="addTitle" placeholder="Add a title" /><br />
+              <label>add date</label><br />
+              <input type="date" aria-required="true" id="t-date" name="addDate" placeholder="Add a date" />
+              <button type="button" id="btn" class="add-btn" onclick="addTask()">Add Task</button>
+            </form>
+            <div id="display" class="display-box"></div>
+          </div>
+        </div>
       </section>
     </main>
 
@@ -55,5 +65,6 @@
         <div id="display" style="display: block"></div>
       </div>
     </div> -->
+    <script src="script.js"></script>
   </body>
 </html>

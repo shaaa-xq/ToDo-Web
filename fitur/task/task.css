@@ -7,12 +7,8 @@ body {
   font-family: "Poppins";
   box-sizing: border-box;
 }
-.sidebar a {
-  color: rgb(72, 23, 119);
-  text-decoration: none;
-}
 body {
-  display: flex;
+  /* display: flex; */
   background-color: rgb(210, 182, 236);
 }
 h2 {
@@ -56,14 +52,86 @@ h3 i {
   cursor: pointer;
 }
 
+#main-page {
+  margin: 0.5em;
+  height: auto;
+}
+
+/* calendar */
 .calendar {
   width: 40%;
   height: 80px;
   background-color: aliceblue;
-  float: right;
+  float: left;
   border: 2px solid black;
 }
 .task-container {
   width: 60%;
+  float: inline-end;
   border: 2px solid black;
+}
+
+/* form */
+.addtask-container {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.addtask {
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+textarea {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  margin: 10px 0;
+}
+.add-btn {
+  padding: 1em;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.display-box {
+  height: auto;
+  list-style-type: none;
+}
+.container-task {
+  display: flex;
+  background-color: rgb(186, 145, 224);
+  border-radius: 10px;
+}
+.check {
+  margin-left: 6px;
+  width: 1.5em;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.title-task {
+  font-weight: 500;
+}
+.title-date {
+  width: 10em;
+}
+.deadline {
+  font-weight: 500;
+  font-size: smaller;
+}
+.delete-btn {
+  margin: auto 5px;
+  margin-left: 5em;
+  padding: 5px;
+  border-radius: 20px;
+  width: 5em;
+  height: 3em;
+  cursor: pointer;
 }
