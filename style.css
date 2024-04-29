@@ -62,7 +62,15 @@ i {
 
 /* toggle */
 .toggle {
+  width: 3em;
+  height: 3em;
   position: fixed;
+  bottom: 30px;
+  right: 20px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 3px #383838;
+  cursor: pointer;
 }
 /* calendar */
 .calendar {
