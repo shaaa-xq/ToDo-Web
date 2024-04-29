@@ -8,4 +8,5 @@ darkToggle.addEventListener("click", function () {
   body.classList.toggle("light-datetime");
   body.classList.toggle("dark-welcome");
   body.classList.toggle("dark-datetime");
+  darkToggle.classList.toggle("light-toggle");
 });

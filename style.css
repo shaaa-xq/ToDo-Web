@@ -15,12 +15,12 @@ a {
 /* for light mode */
 .light-mode {
   display: flex;
-  background-image: url(resource/pexels-veeterzy-114979.jpg);
+  background-image: url(resource/—Pngtree—cloudy\ sky\ background\ with\ gray_1226356.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-color: rgb(210, 182, 236);
+  background-color: rgb(155, 150, 160);
   color: rgb(0, 0, 0);
 }
 .light-welcome {
@@ -35,7 +35,7 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-color: rgb(210, 182, 236);
+  background-color: rgb(90, 85, 94);
 }
 
 .dark-welcome {
@@ -79,6 +79,19 @@ a {
   background-color: white;
   box-shadow: 2px 2px 3px #383838;
   cursor: pointer;
+}
+
+.light-toggle {
+  width: 3em;
+  height: 3em;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 3px #383838;
+  cursor: pointer;
+  background-image: url(resource/light-mode_9937122.png);
 }
 /* calendar */
 .calendar {
