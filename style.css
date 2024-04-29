@@ -11,7 +11,7 @@ a {
   color: rgb(72, 23, 119);
   text-decoration: none;
 }
-body {
+.light-mode {
   display: flex;
   background-image: url(resource/pexels-veeterzy-114979.jpg);
   background-size: cover;
@@ -20,6 +20,16 @@ body {
   background-attachment: fixed;
   background-color: rgb(210, 182, 236);
 }
+.dark-mode {
+  display: flex;
+  background-image: url(resource/dark-mode_6714978.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: rgb(210, 182, 236);
+}
+
 i {
   color: rgb(72, 23, 119);
 }
@@ -50,6 +60,10 @@ i {
   box-shadow: 0 4px 30px rgba(255, 255, 255, 0.267);
 }
 
+/* toggle */
+.toggle {
+  position: fixed;
+}
 /* calendar */
 .calendar {
   width: 40%;
