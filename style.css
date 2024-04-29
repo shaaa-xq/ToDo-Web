@@ -11,6 +11,8 @@ a {
   color: rgb(72, 23, 119);
   text-decoration: none;
 }
+
+/* for light mode */
 .light-mode {
   display: flex;
   background-image: url(resource/pexels-veeterzy-114979.jpg);
@@ -19,10 +21,16 @@ a {
   background-position: center center;
   background-attachment: fixed;
   background-color: rgb(210, 182, 236);
+  color: rgb(0, 0, 0);
 }
+.light-welcome {
+  color: black;
+}
+
+/* for dark mode */
 .dark-mode {
   display: flex;
-  background-image: url(resource/dark-mode_6714978.png);
+  background-image: url(resource/dark-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -30,8 +38,8 @@ a {
   background-color: rgb(210, 182, 236);
 }
 
-i {
-  color: rgb(72, 23, 119);
+.dark-welcome {
+  color: #e8e6ee;
 }
 
 /* home */
