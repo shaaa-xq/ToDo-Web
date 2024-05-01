@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="vanilla calendar/vanilla-calendar.layout.min.css">
     <script src="https://kit.fontawesome.com/430d835188.js" crossorigin="anonymous"></script>
+    <script src="vanilla calendar/vanilla-calendar.min.js" defer></script>
   </head>
   <body>
 
@@ -35,7 +36,6 @@
         <section id="calendar">
           <div class="calendar">
             <h2 align="center">calendar</h2>
-            <div class="test-ajah">bbbbbbb</div>
           </div>
         </section>
 
@@ -63,5 +63,11 @@
     <script src="darkmode.js"></script>
     <!-- <script src="mainfeature.js"></script> -->
     <script src="task.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const calendar = new VanillaCalendar("#calendar")
+        calendar.init
+      })
+    </script>
   </body>
 </html>
