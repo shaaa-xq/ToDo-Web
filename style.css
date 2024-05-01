@@ -41,7 +41,6 @@ body {
   background-attachment: fixed;
   background-color: rgb(90, 85, 94);
 }
-
 .dark-welcome {
   color: #e8e6ee;
 }
@@ -104,9 +103,142 @@ body {
   display: none;
 }
 
+/* transition */
+.homepage-container {
+  transition: all 0.5s ease;
+}
+
+/* main page */
+.main-page {
+  margin: 0.5em;
+  height: 100%;
+}
+.main-page,
+html {
+  background-color: #2a2438;
+}
+
+/* task */
+.task {
+  margin: 7px;
+  background-color: rgb(141, 100, 180);
+  padding: 10px;
+  color: white;
+  width: 600px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+/* h3,
+h5 {
+  font-weight: 300;
+} */
+.add-task {
+  margin: 7px;
+  background-color: rgb(141, 100, 180);
+  padding: 10px;
+  color: white;
+  width: 600px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.addtask-container h2 {
+  color: #dbd8e3;
+}
+.add-task a {
+  color: white;
+  text-decoration: none;
+}
+h3 i {
+  color: white;
+  padding-right: 14px;
+}
+.task-container {
+  width: 55%;
+  float: inline-end;
+  border: 2px solid black;
+}
+.task:hover,
+.add-task:hover {
+  background-color: rgb(122, 83, 158);
+  cursor: pointer;
+}
+
 /* calendar */
 .calendar {
-  width: 40%;
-  height: 40%;
+  width: 45%;
+  height: 200px;
+  background-color: aliceblue;
+  float: left;
   border: 2px solid black;
+}
+
+/* form */
+.addtask-container {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.addtask {
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+textarea {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  margin: 10px 0;
+}
+.add-btn {
+  padding: 1em;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.display-box {
+  height: auto;
+  list-style-type: none;
+}
+.container-task {
+  display: flex;
+  background-color: rgb(186, 145, 224);
+  border-radius: 10px;
+}
+.check {
+  margin-left: 6px;
+  width: 1.5em;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.title-task {
+  font-weight: 500;
+}
+.title-date {
+  width: 10em;
+}
+.deadline {
+  font-weight: 500;
+  font-size: smaller;
+}
+.delete-btn {
+  margin: auto 5px;
+  margin-left: 5em;
+  padding: 5px;
+  border-radius: 20px;
+  width: 5em;
+  height: 3em;
+  cursor: pointer;
+}
+.test-ajah {
+  width: 100%;
+  height: 100px;
+  margin: 2px;
+  background-color: lightcoral;
 }
