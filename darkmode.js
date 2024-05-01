@@ -1,7 +1,7 @@
 const darkToggle = document.getElementById("toggle");
 
 darkToggle.addEventListener("click", function () {
-  const body = document.getElementsByClassName("container")[0];
+  const body = document.getElementsByClassName("homepage-container")[0];
   body.classList.toggle("dark-mode");
   body.classList.toggle("light-mode");
   body.classList.toggle("light-welcome");
