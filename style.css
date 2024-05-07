@@ -115,7 +115,7 @@ body {
 }
 .main-page,
 html {
-  background-color: #2a2438;
+  background-color: #1a181d;
 }
 
 /* task */
@@ -166,7 +166,7 @@ h3 i {
 /* calendar */
 .calendar {
   width: 45%;
-  height: 200px;
+  /* height: 200px; */
   background-color: aliceblue;
   float: left;
   border: 2px solid black;
@@ -235,10 +235,4 @@ textarea {
   width: 5em;
   height: 3em;
   cursor: pointer;
-}
-.test-ajah {
-  width: 100%;
-  height: 100px;
-  margin: 2px;
-  background-color: lightcoral;
 }
