@@ -110,7 +110,7 @@ body {
 
 /* main page */
 .main-page {
-  margin: 0.5em;
+  margin: 1.5em;
   height: 100%;
 }
 .main-page,
@@ -164,12 +164,19 @@ h3 i {
 }
 
 /* calendar */
-.calendar {
+.calendar-container {
+  margin: 1em;
+}
+/* .calendar {
   width: 45%;
-  /* height: 200px; */
+  height: 200px;
   background-color: aliceblue;
   float: left;
   border: 2px solid black;
+} */
+#calendar {
+  width: 45%;
+  float: left;
 }
 
 /* form */

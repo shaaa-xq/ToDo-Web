@@ -33,15 +33,17 @@
       <div class="main-page">
 
         <!-- calendar -->
-        <section class="calendar">
-          <div id="calendar">
-            <h2 align="center">calendar</h2>
-          </div>
+        <section id="calendar-section">
+          <!-- <h2 align="center">calendar</h2> -->
+            <div class="calendar">
+              <div id="calendar"></div>
+            </div>
         </section>
 
         <!-- task-container -->
         <section id="task-container" class="task-container">
           <div class="addtask-container">
+            <div id="display" class="display-box"></div>
             <h2 align="center">Add A Task</h2>
             <div class="addtask">
               <form name="addNewTask">
@@ -50,7 +52,7 @@
                 <input type="date" aria-required="true" id="t-date" name="addDate" placeholder="Add a date" />
                 <button type="button" id="btn" class="add-btn" onclick="addTask()">Add Task</button>
               </form>
-              <div id="display" class="display-box"></div>
+              
             </div>
           </div>
         </section>
